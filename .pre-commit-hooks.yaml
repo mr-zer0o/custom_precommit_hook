@@ -5,3 +5,10 @@
     language: python
     types: [text]
     stages: [commit, push, manual]
+-   id: check-json
+    name: check json
+    description: checks json files for parseable syntax.
+    entry: check-json
+    language: python
+    types: [json]
+
